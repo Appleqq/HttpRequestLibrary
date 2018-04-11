@@ -1,0 +1,6 @@
+framework module SPHttpRequestLibrary {
+  umbrella header "SPHttpRequestLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

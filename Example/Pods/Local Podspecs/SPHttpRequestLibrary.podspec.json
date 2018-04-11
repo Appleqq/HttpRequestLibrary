@@ -1,0 +1,35 @@
+{
+  "name": "SPHttpRequestLibrary",
+  "version": "0.1.3",
+  "summary": "公司iOS客户端网络请求组件.",
+  "description": "1.新增请求框架，可以返回相应的模型数据。",
+  "homepage": "https://github.com/Appleqq/PodTestLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ppan": "820566997@qq.com"
+  },
+  "source": {
+    "git": "http://192.168.1.233:1186/scm/git/SPHttpRequestLibrary",
+    "tag": "0.1.3"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "source_files": "SPHttpRequestLibrary/Classes/*.{h,m}",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "SVProgressHUD": [
+
+    ],
+    "AFNetworking": [
+
+    ],
+    "YYModel": [
+
+    ]
+  }
+}
